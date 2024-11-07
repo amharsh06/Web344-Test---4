@@ -15,6 +15,6 @@ app.get('/products/filter', (req, res) => {
     res.render('filteredProducts', { products: filteredProducts });
 });
 
-app.listen(PORT, () => console.log(`Server is running on port ${PORT}`));
+// app.listen(PORT, () => console.log(`Server is running on port ${PORT}`));
 
 module.exports = app;
